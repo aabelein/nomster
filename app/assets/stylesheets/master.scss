@@ -26,13 +26,19 @@ font-family: Constantia, "Lucida Bright", Lucidabright, "Lucida Serif", Lucida, 
 .navbar {
 	background: image_url('restaurant_icons.png');
 	box-shadow: 0px 1px 3px #2a2a2a;
+	color: #DA2833;
 }
 
 .navbar-inverse .navbar-brand {
-	color: #da2833;
+	color: #DA2833;
 	font-family: 'ralewayitalic', serif;
 	font-size:26px;
 }
+
+.nav-link {
+	color: green !important;
+}
+
 
 .invalid-feedback {
 	color: #ff3333;

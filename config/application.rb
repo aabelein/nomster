@@ -1,3 +1,6 @@
+require 'carrierwave'
+require 'carrierwave/orm/activerecord'
+require 'fog/aws'
 require_relative 'boot'
 
 require 'rails/all'
