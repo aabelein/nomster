@@ -22,8 +22,6 @@ end
    	@place = Place.find_by(id: params[:id])
     @comment = Comment.new
     @photo = Photo.new
-    puts "SENDGRID_USERNAME: #{ENV['SENDGRID_USERNAME']}"
-    puts "SENDGRID_PASSWORD: #{ENV['SENDGRID_PASSWORD']}"
    end
 
    def edit
